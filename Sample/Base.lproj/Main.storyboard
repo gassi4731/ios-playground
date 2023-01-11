@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="135.9375"/>
         </scene>
-        <!--Media Picker View Controller-->
+        <!--Document Picker View Controller-->
         <scene sceneID="8lq-xY-rE6">
             <objects>
-                <viewController id="eGE-yy-vNh" customClass="MediaPickerViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eGE-yy-vNh" customClass="DocumentPickerViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4e1-GF-JGV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="1. select musics"/>
                                 <connections>
-                                    <action selector="selectSongs:" destination="eGE-yy-vNh" eventType="touchUpInside" id="FXw-nw-aJQ"/>
+                                    <action selector="selectMusics" destination="eGE-yy-vNh" eventType="touchUpInside" id="3FK-dt-fPu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFi-2T-rPS">
@@ -62,12 +62,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="2. play"/>
+                                <connections>
+                                    <action selector="play" destination="eGE-yy-vNh" eventType="touchUpInside" id="Xj0-6U-qDw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbb-Ij-9ke">
                                 <rect key="frame" x="172" y="431" width="77" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="3. stop"/>
+                                <connections>
+                                    <action selector="stop" destination="eGE-yy-vNh" eventType="touchUpInside" id="Zq6-5n-Yj7"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vcr-8A-fUn">
                                 <rect key="frame" x="87" y="146" width="240" height="128"/>
