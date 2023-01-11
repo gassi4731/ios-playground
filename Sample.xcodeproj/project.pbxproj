@@ -81,7 +81,6 @@
 		758AD3A0287561D400C7A83D = {
 			isa = PBXGroup;
 			children = (
-				7581AE1E296E9AEB00CFD599 /* DocumentPickerViewController.swift */,
 				758AD3AB287561D400C7A83D /* Sample */,
 				758AD3C2287561D700C7A83D /* SampleTests */,
 				758AD3CC287561D700C7A83D /* SampleUITests */,
@@ -102,6 +101,7 @@
 		758AD3AB287561D400C7A83D /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				7581AE1E296E9AEB00CFD599 /* DocumentPickerViewController.swift */,
 				758AD3AC287561D400C7A83D /* AppDelegate.swift */,
 				758AD3AE287561D400C7A83D /* SceneDelegate.swift */,
 				758AD3B0287561D400C7A83D /* ViewController.swift */,
@@ -444,6 +444,9 @@
 				DEVELOPMENT_TEAM = 3T6YGGZW27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sample/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = Hello;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = Hello;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hello!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,6 +475,9 @@
 				DEVELOPMENT_TEAM = 3T6YGGZW27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sample/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = Hello;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = Hello;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hello!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
